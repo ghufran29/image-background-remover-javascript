@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+.container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+.container h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #5a67d8;
+}
+.description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.file-input {
+    margin-bottom: 20px;
+}
+.file-input input[type="file"] {
+    display: none;
+}
+.file-input label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5a67d8;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.file-input label:hover {
+    background-color: #434190;
+}
+.output {
+    margin-top: 20px;
+}
+.output img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.loading-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: none;
+}
+.loading-bar div {
+    height: 10px;
+    width: 0;
+    background-color: #5a67d8;
+    transition: width 0.3s ease;
+}
+.download-button {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5a67d8;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.download-button:hover {
+    background-color: #434190;
+}
+.credits {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+.credits a {
+    color: #5a67d8;
+    text-decoration: none;
+    font-weight: bold;
+}
+.credits a:hover {
+    text-decoration: underline;
+}
